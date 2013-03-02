@@ -73,7 +73,7 @@
 			
 			[[app navController] presentModalViewController:achivementViewController animated:YES];
 			
-			[achivementViewController release];
+			 //[achivementViewController release];
 		}
 									   ];
 
@@ -87,8 +87,8 @@
 			AppController *app = (AppController*) [[UIApplication sharedApplication] delegate];
 			
 			[[app navController] presentModalViewController:leaderboardViewController animated:YES];
-			
-			[leaderboardViewController release];
+		
+			 //	[leaderboardViewController release];
 		}
 									   ];
 		
@@ -112,7 +112,7 @@
 	// cocos2d will automatically release all the children (Label)
 	
 	// don't forget to call "super dealloc"
-	[super dealloc];
+	//[super dealloc];
 }
 
 #pragma mark GameKit delegate

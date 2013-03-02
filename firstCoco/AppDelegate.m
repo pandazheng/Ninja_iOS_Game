@@ -143,10 +143,10 @@
 
 - (void) dealloc
 {
-	[window_ release];
-	[navController_ release];
+	 //[window_ release];
+	 //[navController_ release];
 
-	[super dealloc];
+	 //[super dealloc];
 }
 @end
 
